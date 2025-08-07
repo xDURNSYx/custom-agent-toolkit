@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Custom Agent Toolkit",
+  "name_for_model": "custom_agent_toolkit",
+  "description_for_human": "A toolkit that connects ChatGPT to external apps like Notion and Telegram.",
+  "description_for_model": "Provides endpoints to update Notion pages and send Telegram messages.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5000/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:5000/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "http://example.com/legal"
+}
